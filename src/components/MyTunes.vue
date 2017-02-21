@@ -1,6 +1,6 @@
 <template>
    
-        <div class=" ">
+        <div class="">
 
         <h1>My Tunes List!</h1>
         <Song :song="song" v-for="song in mySongs">

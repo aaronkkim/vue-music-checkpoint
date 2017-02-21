@@ -1,0 +1,183 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    background: url(https://s-media-cache-ak0.pinimg.com/originals/e6/6c/01/e66c01833178d0fd43ce198b0e33bb7f.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+.track {
+    background-color: black;
+    /*overflow: hidden;
+height:33vh*/
+}
+.images {
+    height: 50 vh;
+    width: auto;
+}
+.panel-heading {
+    height: 66%
+}
+.panel-body {
+    height: 33%;
+    /*overflow-y: scroll;*/
+    /*overflow-x: hidden;*/
+}
+.home {
+    position: relative;
+}
+.area {
+    transition: all 2s ease-out;
+    position: absolute;
+    filter: blur(20px);
+    z-index: 1;
+}
+.area.focused {
+    filter: blur(0px);
+    z-index: 5;
+}
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card-image {
+    overflow: hidden;
+    border-radius: 5%;
+}
+.blur {
+    filter: blur(3px) brightness(75%) saturate(65%)
+}
+.card{ 
+    border-radius: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*# sourceMappingURL=app.cbb31f5c2fa5f0002f3c91a31add6c2d.css.map*/

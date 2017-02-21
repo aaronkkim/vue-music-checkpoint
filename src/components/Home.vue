@@ -1,12 +1,12 @@
 <template>
-  <div @click= "toggleClass" class="home container">
+  <div  class="home container">
     <!-- YOU WILL PROBABLY END UP WITH SOMETHING LIKE THIS -->
+    <button @click= "toggleClass" class = "btn">ToggleTunes</button>
+    <myTunes   :class="{focused:!music.focused}" class="my-tunes area"></myTunes>
+    <itunes :class="music"class="itunes area"></itunes>
 
-    <itunes  @click= "toggleClass":class="music"class="itunes"></itunes>
 
 
-
-    <myTunes  @click= "toggleClass" :class="{focused:!music.focused}" class="my-tunes"></myTunes>
 
 
 
@@ -71,7 +71,7 @@ height:33vh*/
     position: relative;
   }
   .area {
-    transition: all 2s ease-out;
+    transition: all 1s ease-out;
     position: absolute;
     filter: blur(20px);
     z-index: 1;
